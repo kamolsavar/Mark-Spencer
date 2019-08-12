@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNG">
+    <test name="Test Annotation">
+       <classes>
+            <class name="com.maven.markNspencer.testNG.TestAnnotation"/>
+       </classes>
+    </test>
+
+</suite>

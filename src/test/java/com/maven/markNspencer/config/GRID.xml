@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Grid Test" parallel="tests">
+    <test name ="Test Node 1">
+        <classes>
+            <class name="com.maven.markNspencer.grid.Node1"/>
+        </classes>
+    </test>
+
+    <test name ="Test Node 2">
+        <classes>
+            <class name="com.maven.markNspencer.grid.Node2"/>
+        </classes>
+    </test>
+</suite>

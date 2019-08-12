@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" parallel="tests">
+    <test name="Face Book ">
+        <classes>
+            <class name="com.maven.markNspencer.testNG.FaceBookAnnotation"/>
+         </classes>
+    </test>
+
+    <test name="Google ">
+        <classes>
+            <class name="com.maven.markNspencer.testNG.GoogleAnnotation"/>
+        </classes>
+    </test>
+</suite>
